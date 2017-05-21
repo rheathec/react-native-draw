@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':react-native-painter'
+project(':react-native-painter').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-painter/android')
+
+include ':app'
